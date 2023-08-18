@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get IP</title>
+  
+  <meta name="theme-color" content="#111012">
+  <meta name="keywords" content="ip,getip,ip location,vpn,consultar ip,pesquisar ip">
+  <meta name="author" content="Júlio Developer">
+
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <script src="js/get-ip.js" defer></script>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div>
+          <input type="text" id="input" placeholder="Your IP" oninput="rulesInput()">
+          <button id="getIpUser">
+            Search
+            <img src="assets/seta-direita.png" class="ms-2" alt="Arrow right">
+          </button>
+        </div>
+      </nav>
+      <main>
+        <div id="result">
+        </div>
+        <!--Result-->
+      </main>
+    </div>
+  </header>
+</body>
+</html>

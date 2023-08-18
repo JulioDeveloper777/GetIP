@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: rgb(17, 16, 18);
+}
+
+nav > div {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+main > div {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  transition: 0.5s;
+  height: 0;
+  background-color: rgb(46, 44, 49);
+  flex-direction: column;
+}
+
+main > div > div > code {
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  min-height: 100%;
+}
+header nav {
+  height: 80px;
+}
+
+input {
+  border: none;
+  outline: none;
+  transition: 0.3;
+  background-color: rgb(42, 39, 44);
+  padding: 9px 10px;
+  color: white;
+  border-radius: 7px;
+}
+
+input:focus {
+  background-color: rgb(49, 47, 52);
+}
+
+button {
+  padding: 9px 14px;
+  border: none;
+  outline: none;
+  background-color: rgb(132, 0, 255);
+  color: white;
+  transition: 0.3s;
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+button:hover {
+  box-shadow: 0 0 16px rgba(132, 0, 255, 0.484);
+}
+
+img {
+  width: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
